@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+
+  --color-brand-bg: #FDF6EE;
+  --color-brand-text: #8D4D3A;
+  --color-brand-muted: #A6968B;
+  --color-brand-accent: #DE8868;
+  
+  --color-brand-peach-light: #F9E0CD;
+  --color-brand-peach: #F6CCB1;
+  --color-brand-peach-dark: #F5A986;
+  
+  --color-brand-blue-light: #EBF2FF;
+  --color-brand-blue: #CFE1F5;
+  --color-brand-blue-text: #5C6B8A;
+  
+  --color-brand-green-light: #E2ECDY;
+  --color-brand-green: #D4E5D4;
+  --color-brand-green-dark: #7CA186;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Gradients from the Screenshot */
+.card-peach {
+  background: linear-gradient(135deg, var(--color-brand-peach-light) 0%, var(--color-brand-peach) 100%);
+}
+
+.card-peach-alt {
+  background: linear-gradient(135deg, #FBF0E6 0%, #F4D3BC 100%);
+}
+
+.card-blue {
+  background: linear-gradient(135deg, var(--color-brand-blue-light) 0%, var(--color-brand-blue) 100%);
+}
+
+.badge-green {
+  background-color: var(--color-brand-green);
+  color: var(--color-brand-green-dark);
+}
+
+.shadow-soft {
+  box-shadow: 0 20px 40px rgba(141, 77, 58, 0.06);
+}
+
+.floating-dot {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
