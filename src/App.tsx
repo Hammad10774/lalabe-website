@@ -49,9 +49,6 @@ export default function App() {
               your voice, their dreams
             </span>
           </div>
-          <button className="hidden sm:flex items-center px-6 py-2.5 rounded-full bg-white/60 hover:bg-white text-brand-text border border-brand-peach-dark/20 text-sm font-medium transition-colors shadow-sm">
-            Sign In
-          </button>
         </div>
       </nav>
 
